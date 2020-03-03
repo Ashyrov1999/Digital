@@ -1,0 +1,1009 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    .main_menu_button{
+        display: none;
+    }
+    header div .contact li a{
+        font-size: 18px;
+        line-height: 17px;
+    }
+    header .div,
+    header .div1{
+        width: 212px;
+      }
+    .order h1{
+        font-size: 40px;
+        line-height: 50px;
+        margin-top: 40px;
+    }
+    .cont li p{
+        display: block;
+        margin-bottom: 60px;
+    }
+    .order .cont{
+        margin-top: 30px;
+    }
+    .order .cont a{
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .div p,.div1 p{
+        padding-top: 15px;
+        font-size: 16px;
+        line-height: 17px;
+        margin-left: 67px;
+    }
+    .div img,.div1 img{
+        margin-top: 10px;
+        margin-left: 11px;
+        width: 50px;
+    }
+    .div,.div1{
+        width: 220px;
+        height: 78px;
+        margin-top: -20px;
+    }
+    .our_tulips h1{
+        font-size: 38px;
+        line-height: 28px;
+    }
+    .our_tulips .q1 img{
+        width: 300px;
+        margin-left: -50px;
+        margin-top: 150px;
+    }
+    .gift h1{
+        font-size: 28px;
+        line-height: 27px;
+    }
+    .gift li .dv {
+        width: 225px;
+        height: 168px;
+    }
+    .gift li img{
+        width: 50px;
+    }
+    .gift li .dv p{
+        padding: 0px 5px 0px 10px;
+        font-size: 15px;
+        line-height: 115.8%;
+    }
+    .buy{
+        margin-top: 50px;
+    }
+    .buy .p{
+        margin-top: 90px;
+        font-size: 78px;
+        line-height: 58px;
+        z-index: -1;
+        position: absolute;
+    }
+    .buy .block{
+        width: 620px;
+        height: 223px;
+        margin-top: 43px;
+        margin-left: 0px;
+    }
+    .buy .block p{
+        font-size: 26px;
+        line-height: 47px;
+        padding: 18px 20px 0px 10px;
+    }
+    .buy .block li a{
+        font-size: 24px;
+        line-height: 37px;
+        padding-left: 10px;
+    }
+    .buy .img2{
+        width: 280px;
+        margin-top: 0px;
+        float: right;
+        position: absolute;
+        z-index: 98;
+        margin-left: -100px;
+    }
+    .buy .img1{
+        margin-top: 60px;
+        width: 150px;
+    }
+    .catalog_of_tulips .v1 p{
+        font-size: 34px;
+        line-height: 28px;
+    }
+    .catalog_of_tulips .v1 h1{
+        font-size: 24px;
+        line-height: 17px;
+    }
+    .catalog_of_tulips .slide_item .div2{
+        width: 200px;
+        height: 378px;
+    }
+    .catalog_of_tulips .slide_item .div2 img{
+        width: 184px;
+        height: 197px;
+    }
+    .catalog_of_tulips .slide_item .div2 h5{
+        font-size: 18px;
+        line-height: 16px;
+    }
+    .catalog_of_tulips .slide_item .div2 .v4{
+        font-size: 13px;
+        line-height: 16px;
+        text-align: center;
+    }
+    .catalog_of_tulips .div2 .v5{
+        font-size: 13px;
+    }
+     .conditions li{
+        position:relative;
+        z-index:2;
+    }
+    .conditions .q1{
+        display: block;
+        position: relative;
+        z-index: 0;
+        float: left;
+        margin-top: 200px;
+        margin-left: -720px;
+    }
+    .questions h1{
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .questions h5{
+        font-size: 22px;
+        line-height: 24px;
+    }
+    .questions p{
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .questions a{
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .questions span{
+        font-size: 22px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+     body{
+        overflow-x: hidden;
+    }
+    .main_menu_button{
+        display: block;
+    }
+    .menu ul{
+        display: none;
+        position: absolute;
+        width: 100%;
+        background:#fff;
+        margin-top:80px;
+        z-index:3;
+    }
+    header .menu ul li{
+        display: block;
+        padding-bottom: 10px;
+        width: 100%;        
+        border-bottom: 1px solid #C4C4C4;
+   }
+    header .qw .contact{
+        left: 0;
+        top: 0;
+        padding-top: 0px; 
+    }
+    header .qw{
+        background: #F6D8E0;
+        width: 100%;
+        height: 80px;
+    }
+    header .contact li{
+        background: none;
+    }
+    header div .contact li a{
+        font-size: 18px;
+        line-height: 17px;
+    }
+    .order h1{
+        font-size: 34px;
+        line-height: 40px;
+        margin-top: 40px;
+    }
+    .cont li p{
+        display: block;
+        margin-bottom: 60px;
+    }
+    .order .cont{
+        margin-top: 30px;
+    }
+    .order .cont a{
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .div p,.div1 p{
+        padding-top: 15px;
+        font-size: 12px;
+        line-height: 17px;
+        margin-left: 67px;
+    }
+    .div img,.div1 img{
+        margin-top: 10px;
+        margin-left: 11px;
+        width: 50px;
+    }
+    .div,.div1{
+        width: 168px;
+        height: 78px;
+        margin-top: -20px;
+    }
+    header .blk .e{
+        margin-right: 0px;
+    }
+    .our_tulips h1{
+        font-size: 34px;
+        line-height: 28px;
+    }
+    .our_tulips .q1 img{
+        width: 300px;
+        margin-left: -50px;
+        margin-top: 150px;
+    }
+    .gift h1{
+        font-size: 28px;
+        line-height: 27px;
+    }
+    .gift li .dv {
+        width: 166px;
+        height: 168px;
+    }
+    .gift li img{
+        width: 50px;
+    }
+    .gift li .dv p{
+        padding: 0px 5px 0px 10px;
+        font-size: 15px;
+        line-height: 115.8%;
+    }
+    .buy{
+        margin-top: 50px;
+        width: 768px;
+    }
+    .buy .p{
+        margin-top: 90px;
+        font-size: 68px;
+        line-height: 58px;
+        z-index: -1;
+        position: absolute;
+    }
+    .buy .block{
+        width: 420px;
+        height: 143px;
+        margin-top: 43px;
+        margin-left: 0px;
+        z-index: 1;
+        position:relative;
+    }
+    .buy .block p{
+        font-size: 20px;
+        line-height: 27px;
+        padding: 18px 20px 0px 10px;
+    }
+    .buy .block li a{
+        font-size: 18px;
+        line-height: 17px;
+        padding-left: 10px;
+    }
+    .buy .img2{
+        width: 200px;
+        margin-top: 0px;
+        float: right;
+        position: absolute;
+        z-index: 98;        
+    }
+    .buy .img1{
+        margin-top: 60px;
+        width: 100px;
+    }
+    .catalog_of_tulips .v1{
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .catalog_of_tulips .v1 h1{
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .catalog_of_tulips .slide_item .div2{
+        width: 140px;
+        height: 278px;
+    }
+    .catalog_of_tulips .slide_item .div2 img{
+        width: 130px;
+        height: 147px;
+    }
+    .catalog_of_tulips .slide_item .div2 h5{
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .catalog_of_tulips .slide_item .div2 .v4{
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+    }
+    .catalog_of_tulips .slide_item .div2 input{
+        width: 130px;
+        height: 24px;
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .conditions h1{
+        font-size: 28px;
+        line-height: 29px;
+    }
+    .conditions .v{
+        margin-right: 16px;
+    }
+    .conditions li{
+        width: 171px;
+        height: 250px;
+        position:relative;
+        z-index:2;
+    }
+    .conditions .q1{
+        margin-top: 230px;
+        margin-left: -330px;
+        position: relative;
+        z-index: 1;
+    }
+    .questions h1{
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .questions h5{
+        font-size: 22px;
+        line-height: 24px;
+    }
+    .questions p{
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .questions a{
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .questions span{
+        font-size: 22px;
+    }
+    #popUp{
+        left: 20%;
+    }
+    .slider .slick-arrow.slick-next{
+        right: 40%;
+    }
+    .slider .slick-arrow.slick-prev{
+        left: 40%;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    header .qw{
+        background: #F6D8E0;
+        position: relative;
+    }
+    header .contact{
+        left: 20px;
+    }
+    header div .contact li a{
+        font-size: 18px;
+        line-height: 17px;
+    }
+    .main_menu_button{
+        right: 20px;
+    }
+    .order h1{
+        font-size: 34px;
+        line-height: 40px;
+        margin-top: 40px;
+    }
+    .cont li p{
+        display: block;
+        margin-bottom: 60px;
+    }
+    .order .cont{
+        margin-top: 30px;
+    }
+    .order .cont a{
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .div p,.div1 p{
+        padding-top: 15px;
+        font-size: 12px;
+        line-height: 17px;
+        margin-left: 67px;
+    }
+    .div img,.div1 img{
+        margin-top: 10px;
+        margin-left: 11px;
+        width: 50px;
+    }
+    .div,.div1{
+        width: 168px;
+        height: 78px;
+        margin-top: -20px;
+    }
+    header .blk .e{
+        margin-right: 22px;
+    }
+    .our_tulips h1{
+        font-size: 34px;
+        line-height: 28px;
+    }
+    .our_tulips .q1 img{
+        width: 300px;
+        margin-left: -50px;
+        margin-top: 150px;
+    }
+    .gift h1{
+        font-size: 28px;
+        line-height: 27px;
+    }
+    .gift li .dv {
+        width: 166px;
+        height: 168px;
+    }
+    .gift li img{
+        width: 50px;
+    }
+    .gift li .dv p{
+        padding: 0px 5px 0px 10px;
+        font-size: 15px;
+        line-height: 115.8%;
+    }
+    .buy{
+        margin-top: 50px;
+        width: 768px;
+    }
+    .buy .p{
+        margin-top: 90px;
+        font-size: 68px;
+        margin-left: -50px;
+    }
+    .buy .block{
+        width: 300px;
+        height: 143px;
+        margin-top: 43px;
+        margin-left: 0px;
+        z-index: 1;
+        position:relative;
+    }
+    .buy .block p{
+        font-size: 14px;
+        line-height: 27px;
+        padding: 18px 20px 0px 10px;
+    }
+    .buy .block li a{
+        font-size: 16px;
+        line-height: 17px;
+        padding-left: 10px;
+    }
+    .buy .img2{
+        width: 200px;
+        margin-top: 14px;
+        float: right;
+        position: absolute;
+        z-index: 98;        
+    }
+    .buy .img1{
+        margin-left: 0px;
+        margin-top: 60px;
+        width: 100px;
+    }
+    .catalog_of_tulips .v1{
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .catalog_of_tulips .v1 h1{
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .catalog_of_tulips .slide_item .div2{
+        width: 140px;
+        height: 278px;
+    }
+    .catalog_of_tulips .slide_item .div2 img{
+        width: 130px;
+        height: 147px;
+    }
+    .catalog_of_tulips .slide_item .div2 h5{
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .catalog_of_tulips .slide_item .div2 .v4{
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+    }
+    .catalog_of_tulips li .div2 input{
+        width: 130px;
+        height: 24px;
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .conditions h1{
+        font-size: 28px;
+        line-height: 29px;
+    }
+    .conditions .v{
+        margin-right: 16px;
+    }
+    .conditions li{
+        width: 171px;
+        height: 250px;
+        position:relative;
+        z-index:2;
+    }
+    .conditions .q1{
+        margin-top: 230px;
+        margin-left: -330px;
+        position: relative;
+        z-index: 1;
+    }
+    .questions h1{
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .questions h5{
+        font-size: 22px;
+        line-height: 24px;
+    }
+    .questions p{
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .questions a{
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .questions span{
+        font-size: 22px;
+    }
+    .slider .slick-arrow.slick-next{
+        right: 37%;
+    }
+    .slider .slick-arrow.slick-prev{
+        left: 37%;
+    }
+   }
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    header .qw{
+        background: #F6D8E0;
+        position: relative;
+    }
+    header .contact{
+        float: left;
+    }
+    header div .contact li a{
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .order h1{
+        font-size: 24px;
+        line-height: 30px;
+        margin-top: 40px;
+    }
+    .cont li a{
+        margin-right: 40px;
+    }
+    .cont li p{
+        display: block;
+        margin-bottom: 60px;
+        margin-left: 0px;
+    }
+    .order .cont{
+        margin-top: 30px;
+    }
+    .order .cont a{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .div p,.div1 p{
+        font-size: 11px;
+        line-height: 17px;
+        margin-left: 50px;
+    }
+    .div img,.div1 img{
+        margin-left: 11px;
+        width: 40px;
+    }
+    header .blk .div,
+    header .blk .div1{
+        width: 155px;
+        height: 78px;
+    }
+
+    .our_tulips h1{
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .our_tulips .q1 img{
+        width: 96.38px;
+        height: 88.9px;
+        float: right;
+        margin: 0px 0px;
+    }
+    .gift h1{
+        font-size: 22px;
+        line-height: 27px;
+    }
+    .gift li .dv {
+        width: 156px;
+        height: 168px;
+    }
+    .gift li img{
+        width: 50px;
+    }
+    .gift li .dv p{
+        padding: 0px 0px;
+        font-size: 14px;
+        line-height: 115.8%;
+    }
+    .buy{
+        width: 480px;
+    }
+    .buy .p{
+        font-size: 48px;
+        margin-left: -50px;
+    }
+    .buy .block{
+        width: 220px;
+        height: 143px;
+        margin-top: 43px;
+        margin-left: 0px;
+        z-index: 1;
+        position:relative;
+    }
+    .buy .block p{
+        font-size: 14px;
+        line-height: 17px;
+        padding: 18px 20px 0px 10px;
+    }
+    .buy .block li a{
+        font-size: 14px;
+        line-height: 17px;
+        padding-left: 10px;
+    }
+    .buy .img2{
+        width: 150px;
+        margin-left: 200px;
+        margin-top: 27px;
+        position: absolute;
+        float: right;
+        display: block;
+        z-index: 2;
+        
+    }
+    .buy .img1{
+        width: 50px;
+        margin-left: 0px;
+    }
+    .catalog_of_tulips .v1{
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .catalog_of_tulips .v1 h1{
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .catalog_of_tulips .slide_item .div2{
+        width: 140px;
+        height: 278px;
+    }
+    .catalog_of_tulips .slide_item .div2 img{
+        width: 130px;
+        height: 147px;
+    }
+    .catalog_of_tulips .slide_item .div2 h5{
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .catalog_of_tulips .slide_item .div2 .v4{
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+    }
+    .catalog_of_tulips .slide_item .div2 input{
+        width: 130px;
+        height: 24px;
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .conditions h1{
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .conditions .v{
+        margin-right: 0px;
+    }
+    .conditions li{
+        width: 161px;
+        height: 186px;
+    }
+    .conditions .q2{
+        margin-bottom: -200px;
+        margin-left: -25px;
+    }
+    .conditions .q1{
+        float: right;
+        margin-left: 100px;
+        margin-top: -350px;
+    }
+    .questions h1{
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .questions h5{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .questions p{
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .questions a{
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .questions span{
+        font-size: 22px;
+    }
+    .questions .v{
+        margin-left: 40px;
+    }
+    .modal-content{
+        width: 100%;
+    }
+    .modal-content p{
+        font-size: 20px;
+    }
+    .modal-content ul li a{
+        font-size: 16px;
+    }
+    .modal-content ul li span{
+        font-size: 16px;
+    }
+    .modal-content ul li i{
+        font-size: 20px;
+        margin-left: 0px;
+    }
+    .slider .slick-arrow.slick-next{
+        right: 30%;
+    }
+    .slider .slick-arrow.slick-prev{
+        left: 30%;
+    }
+}
+@media only screen and (max-width : 368px){
+    .cont li p{
+    margin-top: 20px; 
+    }
+}
+@media only screen and (max-width : 390px){
+    .div p,.div1 p{
+        font-size: 8px;
+        line-height: 15px;
+        margin-left: 50px;
+    }
+    .div img,.div1 img{
+        margin-left: 11px;
+        width: 30px;
+    }
+    header .blk .div,
+    header .blk .div1{
+        width: 120px;
+        height: 78px;
+    }
+    .gift li .dv {
+        width: 120px;
+        height: 188px;
+    }
+    .gift li img{
+        width: 50px;
+    }
+    .gift li .dv p{
+        padding: 0px 0px;
+        font-size: 12px;
+        line-height: 115.8%;
+    }
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+    header .qw1{
+        background-image: url('../img/2.png');
+        background-repeat: no-repeat;
+    }
+    header .qw{
+        background: #F6D8E0;
+        position: relative;
+    }
+    header .contact{
+        float: left;
+        padding-left: 0px;
+    }
+    header div .contact li a{
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .order h1{
+        font-size: 24px;
+        line-height: 30px;
+        margin-top: 40px;
+    }
+    .cont li a{
+        margin-right: 40px;
+    }
+    .cont li p{
+        margin-left: 0px;
+        display: block;
+        margin-bottom: 60px;
+        margin-top: 20px;
+    }
+    .order .cont{
+        margin-top: 30px;
+    }
+    .order .cont a{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .div p,.div1 p{
+        font-size: 10px;
+        line-height: 17px;
+        margin-left: 50px;
+        padding: 20px 0px
+    }
+    .div img,.div1 img{
+        margin-left: 11px;
+        width: 30px
+    }
+    .div,.div1{
+        width: 142px;
+        height: 78px;
+        margin-top: -20px;
+    }
+    .gift li .dv {
+        width: 120px;
+        height: 188px;
+    }
+    .gift li img{
+        width: 50px;
+    }
+    .gift li .dv p{
+        padding: 0px 0px;
+        font-size: 12px;
+        line-height: 115.8%;
+    }
+    .buy .p{
+        margin-left: -50px;
+        margin-top: 80px;
+    }
+    .buy .block p{
+        font-size: 12px;
+    }
+    .buy .block li a{
+        font-size: 12px;
+    }
+    .buy .img1{
+        margin-left:0px;
+     }
+    .buy .img2{
+        margin-left: 180px;
+     }
+    .catalog_of_tulips .slide_item .div2{
+        width: 120px;
+        height: 278px;
+    }
+    .catalog_of_tulips .slide_item .div2 img{
+        width: 110px;
+        height: 127px;
+    }
+    .catalog_of_tulips .slide_item .div2 input{
+        width: 110px;
+        height: 24px;
+        font-size: 11px;
+        line-height: 16px;
+    }
+    .conditions li{
+        width: 141px;
+        height: 186px;
+    }
+    .conditions .q2{
+        margin-bottom: -200px;
+        margin-left: -25px;
+    }
+    .conditions .q1{
+        float: right;
+        margin-left: 60px;
+        margin-top: -400px;
+    }
+    .questions a{
+        font-size: 20px;
+    }
+    .questions span{
+        font-size: 20x;
+    }
+    .questions .v{
+        margin-left: 10px;
+    }
+     .modal-content  p{
+        font-size: 18px;
+    }
+    .modal-content ul li a{
+        font-size: 13px;
+    }
+    .modal-content ul li i{
+        margin-left: 0px;
+    }
+    .modal-content ul li span{
+        font-size: 16px;
+    }
+    .modal-content ul li i{
+        font-size: 20px;
+    }
+    .slider .slick-arrow.slick-next{
+        right: 27%;
+    }
+    .slider .slick-arrow.slick-prev{
+        left: 27%;
+    }
+    .div p,.div1 p{
+        font-size: 8px;
+        line-height: 15px;
+        margin-left: 50px;
+    }
+    .div img,.div1 img{
+        margin-left: 11px;
+        width: 30px;
+    }
+    header .blk .div,
+    header .blk .div1{
+        width: 120px;
+        height: 78px;
+    }
+    header .blk .w{
+        margin-right: 15px;
+    }
+ }
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+  
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
